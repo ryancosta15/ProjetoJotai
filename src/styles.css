@@ -1,0 +1,110 @@
+:root {
+  --branco: #fff;
+  --cinzaclaro: #8c8c8c;
+  --cinza: #595959;
+  --cinzaescuro: #121214;
+  --preto: #0d0d0d;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+  color: var(--branco);
+}
+body {
+  background-color: var(--cinzaescuro);
+}
+img,
+.card-img-bottom {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  margin-right: 10%;
+  color: white;
+}
+svg {
+  margin: 10px;
+}
+a {
+  color: var(--branco);
+  text-decoration: none;
+}
+.header {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.insta:hover {
+  color: #bf395d;
+}
+
+.zap:hover {
+  color: lightgreen;
+}
+.in:hover {
+  color: #44a1f2;
+}
+.mail:hover {
+  color: #d92818;
+}
+.git:hover {
+  color: #03658c;
+}
+.cardl {
+  margin-left: 50px;
+  margin-bottom: none;
+}
+.cardr {
+  margin-right: 50px;
+  margin-bottom: none;
+}
+.link1:hover {
+  color: orange;
+}
+.link2:hover {
+  color: #bf395d;
+}
+.link3:hover {
+  color: #0fc2c0;
+}
+.link4:hover {
+  color: lightgreen;
+}
+.linkl {
+  margin-left: 350px;
+}
+.linkr {
+  margin-right: 350px;
+}
+.form-control {
+  width: 60%;
+  margin-left: 20%;
+  background-color: var(--cinza);
+}
+
+.slide2 {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: none;
+  transition: 0.8s;
+}
+
+.carde:hover .slide2 {
+  transform: translateY(2px);
+  position: relative;
+  display: flex;
+}
+
+.slide2::after {
+  display: flex;
+  position: initial;
+  width: 100%;
+  height: 100%;
+}
+.card-body {
+  padding: 0px;
+}
+.card2 {
+  color: white;
+}
